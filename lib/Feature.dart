@@ -13,7 +13,10 @@ class _featureState extends State<feature> {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(title: const Text('Feature',)),
-      body:  Container()
+
+      body:const Text('checking')
+
     );
   }
+
 }
