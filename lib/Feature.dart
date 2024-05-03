@@ -13,9 +13,7 @@ class _featureState extends State<feature> {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(title: const Text('Feature',)),
-      body: ListView.builder(itemBuilder: (con,index){
-        return Text(index.toString());
-      }),
+      body:  Container()
     );
   }
 }
